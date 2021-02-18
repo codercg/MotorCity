@@ -1,0 +1,5 @@
+/**app.wxss**/
+page{
+  --theme-color:#2fa2fa;
+  --text-color:white;
+}

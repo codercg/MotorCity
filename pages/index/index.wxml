@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="search">
+    <van-search
+      value="{{ searchValue }}"
+      shape="round"
+      background="#2fa2fa"
+      placeholder="请输入搜索关键词"
+      bind:search="onSearch"
+      bind:change="onChange"
+    />
+  </view>
+  <view class="swiperMap">
+    <swiper
+      indicator-dots="true"
+      autoplay="true"
+      circular="true"
+      style="height:100%"
+    >
+      <block wx:for="{{swiperImage}}">
+        <swiper-item>
+          <image src="{{item.src}}" mode="aspectFix" style="width:100%"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</view>

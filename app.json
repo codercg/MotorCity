@@ -1,0 +1,55 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/category/index",
+    "pages/shopCart/index",
+    "pages/order/index",
+    "pages/userCenter/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2fa2fa",
+    "navigationBarTitleText": "小妖精动漫",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#2fa2fa",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "动漫中心",
+        "iconPath": "./icon/home.png",
+        "selectedIconPath": "./icon/home-active.png"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "text": "分类",
+        "iconPath": "./icon/category.png",
+        "selectedIconPath": "./icon/category-active.png"
+      },
+      {
+        "pagePath": "pages/shopCart/index",
+        "text": "购物车",
+        "iconPath": "./icon/shopcart.png",
+        "selectedIconPath": "./icon/shopcart-active.png"
+      },
+      {
+        "pagePath": "pages/order/index",
+        "text": "订单管理",
+        "iconPath": "./icon/order.png",
+        "selectedIconPath": "./icon/order-active.png"
+      },
+      {
+        "pagePath": "pages/userCenter/index",
+        "text": "我的",
+        "iconPath": "./icon/userCenter.png",
+        "selectedIconPath": "./icon/userCenter-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "useExtendedLib": {
+    "kbone": true,
+    "weui": true
+  }
+}
